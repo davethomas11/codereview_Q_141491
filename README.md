@@ -1,12 +1,13 @@
 # codereview_Q_141491
 
-These scripts are for generating an SVG path that draws a circle using bezier curve C commands.
+These scripts are for generating an SVG path for a circle using bezier curve C commands.
 
 The reason for this script was to create a circle path for an Android VectorDrawable.
-I am animating an Android VectorDrawable of a circle to a square. 
-I need the computer's help via this script to do the math for generating the circle.
+I am animating an Android VectorDrawable of a circle into to a square. 
+I needed the computer's help via this script to do the math of circle coordinates.
 
-I ended up reusing the script, when I had similiar animations to create. It was useful.
+I ended up reusing this script, when I had similiar animations to create. 
+
 If you'd like to see the resulting xml of the two states of the vector drawables please comment,
 and I will add them.
 
