@@ -1,7 +1,7 @@
 -- Compiled for osx 64 bit in executable file -> beziercircle
 
 -- Usage:
--- beziercircle [circumfrance] [offest x] [offset y]
+-- beziercircle [circumference] [offest x] [offset y]
 --
 -- Example: 
 -- beziercircle 500
