@@ -1,10 +1,15 @@
 -- Compiled for osx 64 bit in executable file -> beziercircle
 
 -- Usage:
--- beziercircle [circumference] [offest x] [offset y]
---
+-- 
+-- scriptname [circumference] [offest x] [offset y]
+-- 
 -- Example: 
--- beziercircle 500
+-- scriptname 500
+--
+-- Run in script mode:
+-- runhaskell vector_circle_path.hs 500 0 0
+--
 --
 -- # Thu Sep  1 09:05:18 2016 - author: Dave Thomas - dave.thomas@trader.ca 
 -- # Copyright (c) 2016 Trader Corporation.  All rights reserved.
