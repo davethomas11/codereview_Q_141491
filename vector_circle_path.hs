@@ -37,10 +37,8 @@ main = do
 ip d = d - (d * bz)
 op d = d + (d * bz)
 
-controls a b c d x y = map (\(a, b, c, d) -> (ox a,oy b,ox c,oy d)) [c1, c2, c3, c4]
-    where   ox = (+x)
-            oy = (+y)
-            c1 = (a, b, b, a)
+controls a b c d x y = map (\(a, b, c, d) -> (a + x, b + y, c + x, d + y)) [c1, c2, c3, c4]
+    where   c1 = (a, b, b, a)
             c2 = (c, a, d, b)
             c3 = (d, c, c, d)
             c4 = (b, d, a, c)
